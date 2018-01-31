@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="prod_uniModelStoreContainer" CdmEntityContainer="PagoIVR_Model_Entities">
+    <FunctionImportMapping FunctionImportName="sp_get_cta_UltimaTransaccionPagoOnline" FunctionName="prod_uniModel.Store.sp_get_cta_UltimaTransaccionPagoOnline">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="prod_uniModel.sp_get_cta_UltimaTransaccionPagoOnline_Result">
+          <ScalarProperty Name="Clave" ColumnName="Clave" />
+          <ScalarProperty Name="IdTransaccionPagoOnline" ColumnName="IdTransaccionPagoOnline" />
+          <ScalarProperty Name="EntidadId" ColumnName="EntidadId" />
+          <ScalarProperty Name="FechaSolicitud" ColumnName="FechaSolicitud" />
+          <ScalarProperty Name="FechaRespuesta" ColumnName="FechaRespuesta" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

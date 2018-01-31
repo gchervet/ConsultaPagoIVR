@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\gchervet\Documents\Publicaciones\ConsultaPagoIVR</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/ConsultaPagoIVR.dll">
+      <publishTime>01/31/2018 16:04:12</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>01/31/2018 14:06:50</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>01/31/2018 14:06:50</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>01/31/2018 13:58:59</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>01/31/2018 13:59:06</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>01/31/2018 13:59:06</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>01/31/2018 13:59:07</publishTime>
+    </File>
+    <File Include="Data/PagoIVR_Model.edmx.diagram">
+      <publishTime>01/31/2018 15:47:31</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>01/31/2018 13:58:57</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>01/31/2018 14:06:52</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>01/31/2018 16:04:13</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
